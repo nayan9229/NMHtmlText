@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AFNetworking.h"
+#import "UIKit+AFNetworking/UIImageView+AFNetworking.h"
+#import "NMUITextView+Image.h"
 
 @interface ViewController : UIViewController
 
+//@property (weak, nonatomic) IBOutlet UITextView *TestText;
+@property (weak, nonatomic) IBOutlet NMUITextView_Image *CustomText;
 
 @end
 
